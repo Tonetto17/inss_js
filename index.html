@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Salario</title>
+</head>
+<body>
+    <section>
+    <div>
+        <p>Quantidade de Horas trabalhadas:
+            <input type="number" name="horas" id="txth">
+        </p>
+        <p>Valor das horas trabalhadas:
+            <input type="number" name="horasvalor" id="txthv">
+        </p>
+        <p>Desconto do INSS:
+            <input type="number" name="inss" id="txtin">
+        </p>
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </p>
+    </div>
+    <div id="res">
+        <h5>Esperando...</h5>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
